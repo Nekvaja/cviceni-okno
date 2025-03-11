@@ -9,6 +9,8 @@ body {
   background-color: #b4eafb;
   border-radius: 10px;
   font-size: 30px;
+  position: absolute;
+  left: 200px;
 }
 
 button {
@@ -20,11 +22,32 @@ button {
   color: black;
   width: 30px;
   border-radius: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .ok {
   background-color: #28a745;
   color: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
 
 /* sem přijdou tvoje styly */
+
+.napoveda {
+  font-size: 1.5em;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-weight: 800;
+  border-radius: 5px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate(-10px, 10px);
+}
+
